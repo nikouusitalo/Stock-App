@@ -1,15 +1,18 @@
 import React from 'react';
+import {LandingMenu} from './LandingMenu';
+import {AppConteiner } from './LandingPage-Styled';
+
 
 function LandingPage() {
   return (
-    <div className="landing-page">
-    <LandingMenu name="LOGIN" url="/login" name2="REGISTER" url2="/register" />
-    <div className="landing-page__heading">
-      <h1>MEET THE NEW STANDARDS FOR MARKET TRADING</h1>
-      
-    </div>
-    
-  </div> 
+   <AppConteiner>
+        <LandingMenu  />
+      <div className="landing-page__heading">
+        <h1>MEET THE NEW STANDARDS FOR MARKET TRADING</h1>
+        
+      </div>
+    </AppConteiner>
+   
   )
 }
 
