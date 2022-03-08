@@ -1,16 +1,19 @@
 import React from 'react';
 import {LandingMenu} from './LandingMenu';
-import {AppConteiner } from './LandingPage-Styled';
+import { AppConteiner, LandingPageHeading, Image } from './LandingPage-Styled';
+import Kuva from '../../media/heading.jpg'
+
 
 
 function LandingPage() {
   return (
    <AppConteiner>
         <LandingMenu  />
-      <div className="landing-page__heading">
+      <LandingPageHeading>
         <h1>MEET THE NEW STANDARDS FOR MARKET TRADING</h1>
-        
-      </div>
+        <Image src={Kuva}></Image>
+      </LandingPageHeading>
+    
     </AppConteiner>
    
   )

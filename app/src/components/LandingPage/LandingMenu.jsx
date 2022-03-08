@@ -1,8 +1,7 @@
 
 
 import { React } from 'react';
-import { Button, Buttons, Navigation, ReisterButton } from "./LandingPage-Styled";
-
+import {StyledLink, StyledButton, Buttons, Navigation  } from "./LandingPage-Styled";
 
 
 //TODOS: 
@@ -14,14 +13,12 @@ export function LandingMenu() {
       <h1>Stock App</h1>
      <Buttons>
           
-            <a href='/'>
-             <Button>Login</Button>
-            </a>
+            <StyledLink>
+
+              <StyledButton>Login</StyledButton>
+
+            </StyledLink>
           
-          
-            <a href='/'>
-              <ReisterButton> Register</ReisterButton>
-            </a>
         </Buttons>
         
       

@@ -1,18 +1,21 @@
 import styled from "styled-components";
+import {Button} from 'react-bootstrap';
 
-export const AppConteiner = styled.div`
+export const AppConteiner = styled.div `
 
-background-color: #3179ba;
-
-height: 100%;
-padding: 20px;
-width: 100%;
 `
 
+export const LandingPageHeading = styled.div `
+height: 90vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+`
 //landing menu
 
 export const Navigation = styled.div `
-background-color: red;
+background-color: black;
 display: flex;
 justify-content: space-between;
 
@@ -21,8 +24,17 @@ export const Buttons = styled.div`
 display: flex;
 
 `
+export const Image = styled.img`
+width: 100px;
+height: 100px;
 
-export const Button = styled.button `
+`
+export const StyledLink = styled.a `
+text-decoration: none;
+
+`
+
+export const StyledButton = styled(Button)`
   background-color: #190c8d;
   color: #ffffff;
   font-size: 1.0em;
@@ -36,7 +48,5 @@ export const Button = styled.button `
   cursor: pointer;
   height: 50px;
   width: 100px;
-`
-export const ReisterButton = styled(Button)`
-background-color: green;
+  
 `
