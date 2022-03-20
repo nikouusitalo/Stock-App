@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import {Button} from 'react-bootstrap';
 
 export const AppConteiner = styled.div `
 
@@ -24,29 +23,38 @@ export const Buttons = styled.div`
 display: flex;
 
 `
-export const Image = styled.img`
-width: 100px;
-height: 100px;
 
-`
 export const StyledLink = styled.a `
 text-decoration: none;
 
 `
 
-export const StyledButton = styled(Button)`
-  background-color: #190c8d;
-  color: #ffffff;
-  font-size: 1.0em;
-  font-weight: 600;
-  position: relative;
-  outline: none;
-  border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+export const StyledButton = styled.button`
+  background-color: blue;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
   cursor: pointer;
-  height: 50px;
-  width: 100px;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+
   
 `

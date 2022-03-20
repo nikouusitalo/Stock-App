@@ -1,11 +1,11 @@
 
-import './App.css';
+import GlobalStyle from './globalStyles';
 import LandingPage from './components/LandingPage/LandingPage';
 import { Routes, Route } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
+      <GlobalStyle></GlobalStyle>
       <Routes>
       <Route path="/" element ={<LandingPage/>} />
 
