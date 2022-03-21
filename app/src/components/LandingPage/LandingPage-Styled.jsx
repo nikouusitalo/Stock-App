@@ -17,6 +17,9 @@ export const Navigation = styled.div `
 background-color: black;
 display: flex;
 justify-content: space-between;
+align-items: center;
+padding-top: 10px;
+padding-bottom: 10px;
 
 `
 export const Buttons = styled.div`
