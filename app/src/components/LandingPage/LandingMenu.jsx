@@ -1,28 +1,22 @@
+import { React } from "react";
+import {
+  StyledLink,
+  StyledButton,
+  Buttons,
+  Navigation,
+} from "./LandingPage-Styled";
 
-
-import { React } from 'react';
-import {StyledLink, StyledButton, Buttons, Navigation  } from "./LandingPage-Styled";
-
-
-//TODOS: 
-
+//TODOS:
 
 export function LandingMenu() {
   return (
     <Navigation>
       <h1>Stock App</h1>
-     <Buttons>
-          
-            <StyledLink>
-
-              <StyledButton>Login</StyledButton>
-
-            </StyledLink>
-          
-        </Buttons>
-        
-      
-      
+      <Buttons>
+        <StyledLink>
+                  <StyledButton>Login</StyledButton>
+        </StyledLink>
+      </Buttons>
     </Navigation>
-  )
+  );
 }

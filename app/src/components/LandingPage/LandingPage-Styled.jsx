@@ -1,36 +1,31 @@
 import styled from "styled-components";
 
-export const AppConteiner = styled.div `
+export const AppConteiner = styled.div``;
 
-`
-
-export const LandingPageHeading = styled.div `
-height: 90vh;
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-`
+export const LandingPageHeading = styled.div`
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+`;
 //landing menu
 
-export const Navigation = styled.div `
-background-color: black;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding-top: 10px;
-padding-bottom: 10px;
-
-`
+export const Navigation = styled.div`
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+`;
 export const Buttons = styled.div`
-display: flex;
+  display: flex;
+`;
 
-`
-
-export const StyledLink = styled.a `
-text-decoration: none;
-
-`
+export const StyledLink = styled.a`
+  text-decoration: none;
+`;
 
 export const StyledButton = styled.button`
   background-color: blue;
@@ -40,7 +35,7 @@ export const StyledButton = styled.button`
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.5;
@@ -58,6 +53,4 @@ export const StyledButton = styled.button`
   -webkit-user-select: none;
   touch-action: manipulation;
   width: 100%;
-
-  
-`
+`;

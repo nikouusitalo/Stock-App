@@ -36,10 +36,6 @@ html, body, div, span, applet, object, iframe,
 
 
 
-`
+`;
 
-
-
-
-
-export default GlobalStyle
+export default GlobalStyle;
